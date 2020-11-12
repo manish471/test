@@ -1,7 +1,11 @@
-var a = 2;
-var b = 3;
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 5000;
 
-console.log('changes made in test4 branch');
-console.log("hi")
-console.log("real test4");
-console.log(a*b);
+app.get('/',(req,res)=>{
+    res.send({"message":"connected!!!"});
+})
+
+app.listen(port,()=>{
+    console.log(`server running on ${port}`);
+})

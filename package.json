@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "just for testing purpose",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node test.js",
+    "server":"nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manish471/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manish471/test/issues"
+  },
+  "homepage": "https://github.com/manish471/test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
